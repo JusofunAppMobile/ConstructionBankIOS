@@ -1,0 +1,74 @@
+platform :ios, "7.0"
+inhibit_all_warnings!
+target 'ConstructionBank’ do
+
+# https://github.com/AFNetworking/AFNetworking.git
+pod 'AFNetworking', '~> 3.1.0'
+
+#键盘管理 https://github.com/hackiftekhar/IQKeyboardManager
+pod 'IQKeyboardManager', '~> 3.3.7'
+
+#  https://github.com/cloudkite/Masonry.git
+pod 'Masonry', '~> 1.0.0'
+
+#  图片请求 https://github.com/rs/SDWebImage.git
+pod 'SDWebImage', '~> 3.7.5'
+
+# https://github.com/CoderMJLee/MJRefresh.git
+pod 'MJRefresh', '~> 3.1.12'
+
+# https://github.com/matej/MBProgressHUD.git
+pod 'MBProgressHUD', '~> 0.9.2'
+
+#  https://github.com/CoderMJLee/MJExtension.git
+pod 'MJExtension', '~> 3.0.11'
+
+# https://github.com/ibireme/YYImage.git
+pod 'YYImage', '~> 1.0.1'
+
+#  YYText 文本控件 https://github.com/ibireme/YYText.git
+pod 'YYText', '~> 1.0.5'
+
+
+# 百度地图 http://developer.baidu.com/map/index.php?title=iossdk
+pod 'BaiduMapKit','4.0.0'
+
+# https://github.com/agdsdl/DLPanableWebView.git
+#pod 'DLPanableWebView', '~> 0.9.1'
+
+# 圆角 https://github.com/raozhizhen/JMRoundedCorner.git
+pod 'JMRoundedCorner', '~> 1.2.1'
+
+#  消息显示 https://github.com/cruffenach/CRToast.git
+#pod 'CRToast', '~> 0.0.9'
+
+# 按钮的图片文字 https://github.com/Phelthas/Demo_ButtonImageTitleEdgeInsets
+pod 'LXMButtonImagePosition', '~> 1.1.1'
+
+pod 'CAAnimationBlocks', '~> 0.0.1'
+
+# 缓存  https://github.com/jidibingren/JKDBModel.git
+pod 'JKDBModel-JDBR', '~> 0.0.1'
+
+
+
+#pod 'FMDB', '~> 2.6.2'
+
+# sharesdk  http://wiki.mob.com/使用cocoapods集成sharesdk/
+#pod 'ShareSDK3'
+#pod 'MOBFoundation'
+#pod 'ShareSDK3/ShareSDKUI'
+#pod 'ShareSDK3/ShareSDKPlatforms/QQ'
+#pod 'ShareSDK3/ShareSDKPlatforms/SinaWeibo'
+#pod 'ShareSDK3/ShareSDKPlatforms/WeChat'
+
+
+# 友盟 http://dev.umeng.com/analytics/ios/quick-start
+#pod 'UMengAnalytics-NO-IDFA', '~> 4.1.1'
+
+# 百度统计  https://mtj.baidu.com/sdkdoc/iOS/BaiduMTJ_iOS_App_V4.6.4/
+#pod 'BaiduMobStat', '~> 4.5.0'
+
+
+end
+
