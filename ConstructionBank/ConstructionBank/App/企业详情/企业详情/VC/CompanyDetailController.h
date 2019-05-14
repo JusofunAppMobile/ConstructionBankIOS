@@ -13,4 +13,5 @@
 
 @property (nonatomic,strong) NSString *companyId;
 @property (nonatomic,strong) NSString *companyName;
+@property (nonatomic ,strong) NSString *distance;
 @end

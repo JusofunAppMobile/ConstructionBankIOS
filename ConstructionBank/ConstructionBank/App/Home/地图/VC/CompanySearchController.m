@@ -272,6 +272,7 @@
     CompanyDetailController *vc = [CompanyDetailController new];
     vc.companyId = model.companyId;
     vc.companyName = model.companyName;
+    vc.distance = model.distance;
     [self.navigationController pushViewController:vc animated:YES];
 }
 

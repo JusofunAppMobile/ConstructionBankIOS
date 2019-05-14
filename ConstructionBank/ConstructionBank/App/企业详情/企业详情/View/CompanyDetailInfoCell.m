@@ -182,7 +182,7 @@
     _model = model;
     _nameLab.text = model.companyName;
     _addressLab.text = model.address;
-    _distanceLab.text = [NSString stringWithFormat:@"距您%@",model.distance?:@""];
+    _distanceLab.text = [NSString stringWithFormat:@"距您%@米",model.distance?:@""];
     
     int state = [model.followState intValue]-1;
     if (state>=0&&state<FOLLOWSTATES.count) {

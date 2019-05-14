@@ -94,6 +94,7 @@
         
         detailModel = [CompanyDetailModel mj_objectWithKeyValues:tmpDic];
         detailModel.companyid = _companyId;
+        detailModel.distance = detailModel.distance.floatValue?detailModel.distance:_distance;
         itemList = [NSMutableArray arrayWithArray:detailModel.subclassMenu];
         detailView.detailModel = detailModel;
         if (detailModel.type.intValue ==3) {
