@@ -45,8 +45,8 @@
     
     NSString *string = [NSString stringWithFormat:@"%@",[secondDayStr substringWithRange:NSMakeRange(0,8)]] ;
     
-    firstDayStr = [NSString stringWithFormat:@"%@01",string] ;;
-
+//    firstDayStr = [NSString stringWithFormat:@"%@01",string] ;;
+    firstDayStr = @"2018-01-01";//test
 
     [self drawView];
     [self loadData];
